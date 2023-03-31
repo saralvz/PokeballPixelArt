@@ -1,0 +1,40 @@
+.pokeball {
+    width: 12rem;
+    height: 12rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.pixel {
+    width: 1rem;
+    height: 1rem;
+    box-shadow:
+        /* row 1 */
+        0rem 0rem 0 -0.05rem white,
+        1rem 0rem 0 -0.05rem white,
+        2rem 0rem 0 -0.05rem white,
+        3rem 0rem 0 -0.05rem white,
+        4rem 0rem 0 -0.05rem black,
+        5rem 0rem 0 -0.05rem black,
+        6rem 0rem 0 -0.05rem black,
+        7rem 0rem 0 -0.05rem black,
+        8rem 0rem 0 -0.05rem white,
+        9rem 0rem 0 -0.05rem white,
+        10rem 0rem 0 -0.05rem white,
+        11rem 0rem 0 -0.05rem white,
+        /* row 2 */
+        0rem 0rem 0 -0.05rem white,
+        1rem 0rem 0 -0.05rem white,
+        2rem 0rem 0 -0.05rem black,
+        3rem 0rem 0 -0.05rem black,
+        4rem 0rem 0 -0.05rem red,
+        5rem 0rem 0 -0.05rem red,
+        6rem 0rem 0 -0.05rem red,
+        7rem 0rem 0 -0.05rem red,
+        8rem 0rem 0 -0.05rem black,
+        9rem 0rem 0 -0.05rem black,
+        10rem 0rem 0 -0.05rem white,
+        11rem 0rem 0 -0.05rem white
+}
